@@ -29,9 +29,9 @@
     100%{background-position-x: 62.5rem;}
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:600px) {
     .about__me{
-        height: 110vh;
+        height: 30vh;
         justify-content: center;
         &-title{
             padding: 1.875rem 0;

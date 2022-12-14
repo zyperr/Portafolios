@@ -1,1 +1,85 @@
-.about__me{position:relative;display:flex;flex-flow:column wrap;align-content:center;overflow:hidden;width:100%;white-space:pre-line}.about__me-title{background-color:#141414;color:#f2f2f2}.about__me-paragraph{text-align:center;background:#141414;color:#f2f2f2;height:55vh;padding:.625rem .625rem}.about__me-outstanding{color:#0f4}@keyframes wave{0%{background-position-x:0}100%{background-position-x:62.5rem}}@media screen and (max-width:425px){.about__me{height:110vh;justify-content:center;background-color:#141414}.about__me-title{padding:1.875rem 0;font-size:1.875rem;text-align:center}.about__me-paragraph{font-size:1.25rem}}@media screen and (max-width:375px){.about__me{height:90vh}}@media screen and (min-width:320px){.about__me{height:100vh}}@media screen and (min-width:768px){.about__me{height:100%}.about__me-title{text-align:center;padding:3.125rem 0;font-size:1.875rem}.about__me-paragraph{font-size:1.25rem;height:50vh}}@media screen and (min-width:1440px){.about__me{height:100%}.about__me-title{padding:2rem}.about__me-paragraph{width:77%;font-size:1.5rem}}
+.about__me {
+  position: relative;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  overflow: hidden;
+  width: 100%;
+  white-space: pre-line;
+}
+.about__me-title {
+  background-color: #141414;
+  color: #f2f2f2;
+}
+.about__me-paragraph {
+  text-align: center;
+  background: #141414;
+  color: #f2f2f2;
+  height: 55vh;
+  padding: 0.625rem 0.625rem;
+}
+.about__me-outstanding {
+  color: #00FF44;
+}
+
+@keyframes wave {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 62.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .about__me {
+    height: 30vh;
+    justify-content: center;
+    background-color: #141414;
+  }
+  .about__me-title {
+    padding: 1.875rem 0;
+    font-size: 1.875rem;
+    text-align: center;
+  }
+  .about__me-paragraph {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .about__me {
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 320px) {
+  .about__me {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about__me {
+    height: 100%;
+  }
+  .about__me-title {
+    text-align: center;
+    padding: 3.125rem 0px;
+    font-size: 1.875rem;
+  }
+  .about__me-paragraph {
+    font-size: 1.25rem;
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about__me {
+    height: 100%;
+  }
+  .about__me-title {
+    padding: 2rem;
+  }
+  .about__me-paragraph {
+    width: 77%;
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=about__Me.css.map */
