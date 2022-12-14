@@ -1,0 +1,40 @@
+@import 'variables';
+
+.bars{
+    width: 1.875rem;
+    height: 1.875rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    margin: .625rem;
+    &__line{
+        display: block;
+        width: 100%;
+        height: .125rem;
+        background-color: $primary-color;
+        margin-top: .375rem;
+        transition: all 300ms;
+        transform-origin: 0px 100%;
+    }
+    & .active:first-child{
+        transform: rotate(45deg) translate(-0.3125rem,.0625rem);
+        margin: .3125rem;
+     }
+     & .active:nth-of-type(2){
+        margin: .3125rem;
+         display: none;
+     }
+     & .active:nth-of-type(3){
+         transform: rotate(-45deg) translate(-0.625rem,.25rem);
+         margin: .3125rem;
+     }
+     z-index: 1000;
+}
+
+
+@media screen and (min-width:768px) {
+    .bars{
+        display: none;
+    }
+}

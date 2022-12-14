@@ -1,0 +1,1 @@
+export const carrousel=()=>{const grande=document.querySelector(".carrousel__container"),punto=document.querySelectorAll(".point");punto.forEach((cadaPunto,i)=>{punto[i].addEventListener("click",()=>{let posicion,calculo=-50*i;grande.style.transform=`translateX(%)`,punto.forEach((cadaPunto,i)=>{punto[i].classList.remove("activo")}),punto[i].classList.add("activo")})})};

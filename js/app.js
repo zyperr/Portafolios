@@ -1,0 +1,1 @@
+import{btnHamburger}from"./btnhamburger.js";import{ModalFunction}from"./modal.js";import{Tabs}from"./tabs.js";import{carrousel}from"./carrousel.js";AOS.init(),carrousel(),Tabs(),btnHamburger(),ModalFunction();

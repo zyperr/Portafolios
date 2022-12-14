@@ -1,0 +1,8 @@
+node_modules
+.sass-cache
+app.css.map
+projects.css.map
+footer.css.map
+about__Me.css.map
+package-lock.json
+package.json
