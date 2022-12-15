@@ -402,7 +402,8 @@ html, body {
     align-items: center;
   }
   .header .nav__links {
-    font-size: 1.5625rem;
+    font-size: 1.25rem;
+    padding-right: 1.25rem;
   }
   .subpresentation__container {
     display: flex;
