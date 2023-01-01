@@ -165,6 +165,22 @@
         }
     }
 }
+@media screen and (min-width:1024px) {
+    .project{
+        &__figure{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        &__img{
+            width: 60%;
+        }
+        .btn__modal-open{
+            transform: translate(180%,0%);
+        }
+    }
+}
+
 @media screen and (min-width:1440px){
     .project{
         &__figure{
@@ -173,7 +189,7 @@
             justify-content: center;
         }
         &__img{
-            width: 50%;
+            width: 40%;
         }
         .modal{
             width: 50%;
@@ -184,6 +200,8 @@
                 }
             }
         }
-
+        .btn__modal-open{
+            transform: translate(260%,0%);
+        }
     }
 }
