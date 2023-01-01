@@ -393,6 +393,17 @@ html, body {
     gap: 60px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .carrousel__container {
+    justify-content: center;
+  }
+  .carrousel__container .formation__img {
+    height: 12.5rem;
+  }
+  .carrousel__container .formation__text {
+    width: 60%;
+  }
+}
 @media screen and (min-width: 1440px) {
   .header {
     height: 10vh;
