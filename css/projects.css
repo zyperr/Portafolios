@@ -197,7 +197,8 @@
   }
   .wrapper {
     display: flex;
-    width: 40%;
+    justify-content: center;
+    width: 21%;
   }
 }
 
