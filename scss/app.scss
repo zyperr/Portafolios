@@ -433,7 +433,11 @@ html,body{
         }
     }
 }
-
+.wrapper{
+        display: flex;
+        justify-content: center;
+        width: 35%;
+}
 @media screen and (min-width:1500px) {
     .subpresentation__container .tabs__block {
         width: 60%;
